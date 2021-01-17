@@ -1,5 +1,5 @@
+import { currentUser } from "@rdtix/common";
 import express from "express";
-import { currentUser } from "../middlewares/current-user";
 
 const router = express.Router();
 
